@@ -1,0 +1,84 @@
+The vector structure is as follows: check the word before and the word after the verb,
+and for each of them, add 1 wherever applies.
+The order of the coordinates is as follows:
+From the function attribute at the end, according to the word id:
+0-Adju (Adjunct)
+1-Cmpl (Complement)
+2-Conj (Conjunction)
+3-Eppr (Enclitic personal pronoun)
+4-ExsS (Existence with subject suffix)
+5-Exst (Existence)
+6-Frnt (Fronted element)
+7-Intj (Interjection)
+8-IntS (Interjection with subject suffix)
+9-Loca (Locative)
+10-Modi (Modifier)
+11-ModS (Modifier with subject suffix)
+12-NCop (Negative copula)
+13-NCoS (Negative copula with subject suffix)
+14-Nega (Negation)
+15-Objc (Object)
+16-PrAd (Predicative adjunct)
+17-PrcS (Predicate complement with subject suffix)
+18-PreC (Predicate complement)
+19-Pred (Predicate)
+20-PreO (Predicate with object suffix)
+21-PreS (Predicate with subject suffix)
+22-PtcO (Participle with object suffix)
+23-Ques (Question)
+24-Rela (Relative)
+25-Subj (Subject)
+26-Supp (Supplementary constituent)
+27-Time (Time reference)
+28-Unkn (Unknown)
+29-Voct (Vocative)
+
+from the tag "m ana":
+30-#BASEFORM_BINYAN_PAAL
+31-#BASEFORM_BINYAN_NIFAL
+32-#BASEFORM_BINYAN_HIFIL
+33-#BASEFORM_BINYAN_HUFAL
+34-#BASEFORM_BINYAN_PIEL
+35-#BASEFORM_BINYAN_PUAL
+36-#BASEFORM_BINYAN_HITPAEL
+37-#BASEFORM_GENDER_MASCULINE (male)
+38-#BASEFORM_GENDER_FEMININE (female)
+39-#BASEFORM_NUMBER_PLURAL
+40-#BASEFORM_NUMBER_SINGULAR
+41-#BASEFORM_NUMBER_DUAL
+42-#BASEFORM_PERSON_1
+43-#BASEFORM_PERSON_2
+44-#BASEFORM_PERSON_3
+45-#BASEFORM_PERSON_ANY (The word can be in 1st, 2nd or 3rd person)
+46-#BASEFORM_POS_VERB (פועל)
+47-#BASEFORM_POS_NOUN (שם עצם)
+48-#BASEFORM_POS_ADJECTIVE (שם תואר)
+49-#BASEFORM_POS_NEGATION (מילת שלילה)
+50-#BASEFORM_POS_ADVERB (תואר הפועל)
+51-#BASEFORM_POS_CONJUNCTION (מילת קישור)
+52-#BASEFORM_POS_INTERJECTION (מילת קריאה)
+53-#BASEFORM_POS_INTERROGATIVE (מילת שאלה)
+54-#BASEFORM_POS_PREPOSITION (מילת יחס)
+55-#BASEFORM_POS_PROPERNAME (שם פרטי)
+56-#BASEFORM_POS_PRONOUN (כינוי גוף)
+57-#BASEFORM_POS_PARTICIPLE (פועל שכולל גם תכונות של תואר)
+58-#BASEFORM_STATUS_ABSOLUTE (מילה שאינה חלק מסמיכות)
+59-#BASEFORM_STATUS_CONSTRUCT (חלק מסמיכות)
+60-#BASEFORM_TENSE_PAST
+61-#BASEFORM_TENSE_FUTURE
+62-#BASEFORM_TENSE_TOINFINITIVE
+63-#BASEFORM_TENSE_IMPERATIVE (ציווי)
+64-#BASEFORM_TENSE_BAREINFINITIVE
+65-#PREFIX_FUNCTION_CONJUNCTION (ו החיבור)
+66-#PREFIX_FUNCTION_DEFINITEARTICLE (ה הידיעה)
+67-#PREFIX_FUNCTION_INTERROGATIVE (ה השאלה)
+68-#PREFIX_FUNCTION_PREPOSITION (תחילית יחס, כמו מ-, ב-, ועוד)
+69-#SUFFIX_FUNCTION_ACCUSATIVENOMINATIVE
+70-#SUFFIX_FUNCTION_POSSESIVEPRONOUN
+71-#SUFFIX_GENDER_MASCULINE
+72-#SUFFIX_GENDER_FEMININE
+73-#SUFFIX_NOMINAL_ENDING
+74-#SUFFIX_NUMBER_PLURAL
+75-#SUFFIX_NUMBER_SINGULAR
+76-#SUFFIX_PERSON_2
+77-#SUFFIX_PERSON_3
