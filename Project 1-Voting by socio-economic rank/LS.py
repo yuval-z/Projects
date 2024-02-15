@@ -5,16 +5,22 @@ from sklearn import metrics
 import csv
 
 cities = []
+# Create a list of cities to work with
 with open("cities.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quotechar='|') 
     for row in reader: # each row is a list
         cities.append(row[0])
+
+# Generate the voting data and the lables for each city
 my_data = genfromtxt('data.csv', delimiter=',')
 parties = ["Labor", "Yamina", "United Torah Judaism", "Joint Arab List", "Religious Zionism",
 "Blue and White", "Israel Beitenu", "Likud", "Meretz", "United Arab List", "Yesh Atid",
 "Shas", "New Hope"]
 ranks = my_data[:, 0]
 votes = my_data[:, 1:]
+
+# Normalize the results to ge tthe voting percentages, to ensure that the results wouldn't differ
+# based on the size of the city.
 for i in range(len(votes)):
     votes[i] = votes[i] / sum(votes[i])
 xtx1 = np.linalg.inv(np.matmul(votes.T, votes))
