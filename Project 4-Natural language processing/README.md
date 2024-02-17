@@ -15,4 +15,4 @@ The files:
    rules.
 8. report.pdf-a more detailed explanation about our working process, and some statistics about the data.
 
-To run simply execute either parse-window1.py or parse-window2.py (depending on the size of the window aorund the verb you want to examine-more information can be found in report.pdf).
+To execute, make sure you have numpy, conllu and sklearn installed-if not, execute the following command in command prompt without the quotation marks: "pip install numpy" (or the names of the other packages). Then, simply execute either parse-window1.py or parse-window2.py (depending on the size of the window around the verb you want to examine-more information can be found in report.pdf).
