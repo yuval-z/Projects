@@ -28,7 +28,9 @@ test group.
 
 The output is submission.csv which has a classification for each passenger ID in test.csv.
 
-To run, execute all cells of the notebook file notebook2a90729d0a.ipynb. The output file submission.csv will be created as a result. Note that due to it being part of an ongoing competition, the exact results are not known to the public, but they can be evaluated as follows:
+
+To execute, make sure you have numpy, pandas and sklearn installed-if not, execute the following command in command prompt without the quotation marks: "pip install numpy" (or the names of the other packages).
+Then, run all cells of the notebook file notebook2a90729d0a.ipynb. The output file submission.csv will be created as a result. Note that due to it being part of an ongoing competition, the exact results are not known to the public, but they can be evaluated as follows:
 1. Go to the following link: https://www.kaggle.com/competitions/titanic/overview
 2. Click on "Submit Prediction"
 3. Enter the file submission.csv generated after running the notebook
