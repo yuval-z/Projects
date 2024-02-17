@@ -14,3 +14,5 @@ The files:
 7. parse-window1.py and parse-window2.py-the files that convert the classified examples into vectors, split them into a test group and a training group and make the prediction
    rules.
 8. report.pdf-a more detailed explanation about our working process, and some statistics about the data.
+
+To run simply execute either parse-window1.py or parse-window2.py (depending on the size of the window aorund the verb you want to examine-more information can be found in report.pdf).
