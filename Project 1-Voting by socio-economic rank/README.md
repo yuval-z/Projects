@@ -5,4 +5,4 @@ The Output is:
 2. A confusion matrix with the projected and actual socio-economic ranks. You can see that for approximately 40% of cities the prediction was precise and for approximately 90% the margin of error was smaller or equal to 1.
 3. The 10 points of settlement with the most accurate and least accurate predictions.
 
-To execute simply run LS.py.
+To execute, make sure you have numpy, matplotlib and sklearn installed-if not, execute the following command in command prompt without the quotation marks: "pip install numpy" (or the names of the other packages). Then, simply run LS.py.
