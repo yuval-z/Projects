@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base styles */
+body {
+  @apply bg-violet-100;
+}
+
+main {
+  @apply min-h-screen flex items-center justify-center;
+}
+
+/* card styles */
+
+.card {
+  @apply bg-white p-8 rounded-lg shadow-lg w-full mx-7;
+}
+
+.card.narrow {
+  @apply max-w-xs;
+}
+
+.card.wide {
+  @apply max-w-2xl;
+}
+
+/* typography styles */
+
+h1 {
+  @apply text-3xl font-bold text-gray-900;
+}
+
+h2 {
+  @apply text-2xl font-bold text-gray-900;
+}
+
+h3 {
+  @apply text-xl font-bold text-gray-900;
+}
+
+/* navbar styles */
+.navbar {
+  @apply bg-white 
+    z-20 
+    border-b border-gray-300;
+}
+
+.navbar-container {
+  @apply flex justify-between items-center
+    max-w-6xl mx-auto px-5 mb-1;
+}
+
+.navbar-logo {
+  @apply flex-shrink-0;
+}
+
+.navbar-links {
+  @apply flex-1 flex justify-center gap-16;
+}
+
+.navbar-account {
+  @apply flex justify-end gap-7;
+}
+
+nav a,
+nav span {
+  @apply text-gray-500;
+}
+
+nav a:hover {
+  @apply text-purple-700;
+}
+
+.active {
+  @apply text-purple-700;
+}
+
+/* Dropdown style */
+.navbar-account .dropdown-menu {
+  @apply bg-white rounded-lg shadow-lg py-1 mt-2 absolute right-0 z-50;
+}
+
+.navbar-account .dropdown-menu button {
+  @apply block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100;
+}
+
+/* card styles */
+.card {
+  @apply bg-white rounded-lg shadow-md p-5;
+}
+
+/* button styles */
+
+button.wide {
+  @apply w-full;
+}
+
+.btn {
+  @apply py-2 rounded-lg px-3;
+}
+
+.btn.primary {
+  @apply bg-purple-700 text-white font-semibold hover:bg-purple-800;
+}
+
+.btn-outline {
+  @apply bg-white border border-gray-300 text-gray-700 font-medium py-2 rounded-lg hover:bg-gray-50;
+}
+
+.btn-outline-dashed {
+  @apply btn-outline border-dashed;
+}
+
+.btn-outline.primary {
+  @apply text-purple-700 hover:text-purple-800 border-purple-700 hover:border-purple-800;
+}
+
+.btn-link {
+  @apply text-blue-500 font-medium hover:text-blue-700;
+}
+
+/* form styles */
+
+label {
+  @apply block text-gray-900 text-sm font-medium mb-2;
+}
+
+input.single-line {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-purple-700 focus:border-purple-700 p-2.5 text-xs;
+}
+
+input.wide {
+  @apply w-full;
+}
+
+.input-regular {
+  @apply w-64;
+}
+
+.input-small {
+  @apply w-32;
+}
