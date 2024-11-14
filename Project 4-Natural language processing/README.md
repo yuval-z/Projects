@@ -1,8 +1,7 @@
 This was a group project for a Subjects In Natural Language Processing course for my computer science degree.
 The goal of this subject was to use the sklearn library to be able to predict the role of Binyan Hitpael in the sentence, based on the syntax and morphological context in the
 sentence.
-Out of two datasets (one containing syntax and morphologic analyzis sentences in modern Hebrew and one containing analyzis to the whole Bible), we picked around 500 samples from
-each that contain a verb in Hitpael, then classified them to groups according to two linguistic methods and wrote a classification guide. We then converted each analyzed example
+Out of two datasets (one containing syntax and morphologic analysis for sentences in modern Hebrew and one containing analysis to the whole Bible), we picked around 500 samples from each that contain a verb in Hitpael, then classified them to groups according to two linguistic methods and wrote a classification guide. We then converted each analyzed example
 into a vector based on the syntax and morphology of the one or two words before and after that verb and then used 10-fold cross validation to find the best prediction rules.
 The files:
 1. TanakhDictaTEI.rar-the entire dataset for the Bible
